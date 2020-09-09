@@ -4,3 +4,45 @@ html, body {
     height: 100%;
 }
 
+.halloworld {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background: orange;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    z-index: 1;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 255, 85);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 3;
+   
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 183, 255);
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+   
+}
